@@ -45,7 +45,7 @@ public class NexusLoginHandler : BrowserWindowViewModel
 
         Instructions = "Getting API Key...";
 
-        await NavigateTo(new Uri("https://www.nexusmods.com/users/myaccount?tab=api"));
+        await NavigateTo(new Uri("https://next.nexusmods.com/settings/api-keys"));
 
         var key = "";
 
